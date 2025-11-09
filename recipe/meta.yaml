@@ -1,13 +1,13 @@
 {% set name = "fcswrite" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fcswrite-{{ version }}.tar.gz
-  sha256: 58a75e84e3f79775dc3d96a8df5805d9b0225bc5d843892f61a633a3ad9303d8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fcswrite-{{ version }}.tar.gz
+  sha256: 056924722c76282953d2681e46d5dc65471d3277089329cd993ab8359c979d15
 
 build:
   noarch: python
